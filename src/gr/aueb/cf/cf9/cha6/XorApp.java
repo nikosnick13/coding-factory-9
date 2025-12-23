@@ -1,0 +1,16 @@
+package gr.aueb.cf.cf9.cha6;
+
+/**
+ *
+ */
+public class XorApp {
+
+    public static void main(String[] args) {
+
+    }
+
+    public  static boolean xor(boolean b1, boolean b2){
+        return (b1 ^ b2);
+
+    }
+}
