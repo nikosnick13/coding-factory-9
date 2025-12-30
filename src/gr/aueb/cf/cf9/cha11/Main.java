@@ -21,6 +21,9 @@ public class Main {
         Product milk = new Product(12L, "Milk A","Light Milk", 1.3, 3, true);
         Product juice = new Product(13L, "Oranje","Orange with banana", 2, 30, true);
 
+        Customer customer = new Customer();
+        Customer customer1 = new Customer();
+
         Student student2 = new Student(3,"Makis", "Kapetis");
         student2.setFirstName("Xrisostomos");
 
