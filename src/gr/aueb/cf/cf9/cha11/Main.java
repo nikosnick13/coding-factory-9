@@ -18,6 +18,9 @@ public class Main {
         User user = new User();
         User nikoloas = new User(true, "12345", "CyberPirate", "NIkoalidis", "Nikolas",1l);
 
+        Product milk = new Product(12L, "Milk A","Light Milk", 1.3, 3, true);
+        Product juice = new Product(13L, "Oranje","Orange with banana", 2, 30, true);
+
         Student student2 = new Student(3,"Makis", "Kapetis");
         student2.setFirstName("Xrisostomos");
 
