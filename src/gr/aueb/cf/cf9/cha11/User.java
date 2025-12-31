@@ -1,5 +1,8 @@
 package gr.aueb.cf.cf9.cha11;
 
+/**
+ * Define Java Bean for Users
+ */
 public class User {
 
     private long id;
