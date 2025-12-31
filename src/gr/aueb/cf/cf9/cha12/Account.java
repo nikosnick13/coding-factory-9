@@ -87,7 +87,7 @@ public class Account {
             if(amount < 0) throw new Exception("The amount should be positive");
             balance += amount;
         } catch (Exception ex){
-            System.err.println("Negative amount " + amount +" is not allowed %n%n" + ex.getMessage());
+            System.err.println("Negative amount " + amount +" is not allowed \n" +  ex.getMessage());
             throw ex;
         }
     }
@@ -107,7 +107,7 @@ public class Account {
 
         } catch (Exception ex){
 
-            System.err.println("Withdraw failed. %n" + ex.getMessage());
+            System.err.println("Withdrawal failed. " + "\n" +  ex.getMessage());
             throw ex;
         }
     }
@@ -132,5 +132,4 @@ public class Account {
     private boolean isSsnValid(String ssn){
         return  this.ssn.equals(ssn) ;
     }
-
 }
