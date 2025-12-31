@@ -1,9 +1,7 @@
 package gr.aueb.cf.cf9.cha12;
 
-import java.awt.font.TextHitInfo;
-
 /**
- *
+ * The main class
  */
 public class Main {
 
