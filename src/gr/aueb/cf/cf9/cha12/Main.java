@@ -18,7 +18,8 @@ public class Main {
             aliceAccount.withdraw(70, "A12345");
             System.out.println(aliceAccount.accountToString());
 
-
+            aliceAccount.withdraw(70, "A2345");
+            System.out.println(aliceAccount.accountToString());
 
         } catch (Exception ex) {
             System.err.println("Something get wrong \n" + ex.getMessage());
