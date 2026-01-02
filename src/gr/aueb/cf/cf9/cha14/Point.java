@@ -28,7 +28,7 @@ public class Point {
     }
 
     private void reset(){
-        x = o;
+        x = 0 ;
     }
 
 }
