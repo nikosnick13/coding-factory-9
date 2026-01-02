@@ -14,6 +14,14 @@ public class Point2D extends Point{
         this.y = y;
     }
 
+    public double getY() {
+        return y;
+    }
+
+    public void setY(double y) {
+        this.y = y;
+    }
+
     @Override
     public void movePlusOne() {
         super.movePlusOne();
