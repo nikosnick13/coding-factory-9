@@ -6,8 +6,7 @@ public class Point {
 
     public  Point(){}
 
-    public Point(int x){
-
+    public Point(double x){
         this.x = x;
     }
 
@@ -23,7 +22,7 @@ public class Point {
         x += 1;
     }
 
-    private void movePlus10(){
+    protected void movePlus10(){
         x += 10;
     }
 
