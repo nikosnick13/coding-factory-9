@@ -11,6 +11,6 @@ public class Cat extends Animal{
     @Override
     public void eat() {
         super.eat();
-        System.out.println("She all the food");
+        System.out.println("She ate all her food");
     }
 }
