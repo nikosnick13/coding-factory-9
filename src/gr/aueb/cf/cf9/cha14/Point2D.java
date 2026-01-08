@@ -34,4 +34,8 @@ public class Point2D extends Point{
         y += 10;
     }
 
+    @Override
+    public String toString() {
+        return "(" + getX() + ", " + y + ")";
+    }
 }
