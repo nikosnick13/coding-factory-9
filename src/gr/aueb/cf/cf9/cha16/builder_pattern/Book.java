@@ -1,4 +1,4 @@
-package gr.aueb.cf.cf9.cha16.builder;
+package gr.aueb.cf.cf9.cha16.builder_pattern;
 
 public class Book {
 
