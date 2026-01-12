@@ -1,6 +1,4 @@
-package gr.aueb.cf.cf9.cha16;
-
-import java.awt.*;
+package gr.aueb.cf.cf9.cha16.builder;
 
 public class Book {
 

@@ -1,4 +1,4 @@
-package gr.aueb.cf.cf9.cha16;
+package gr.aueb.cf.cf9.cha16.builder;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,7 +10,6 @@ public class Main {
                 .title("Lord of the rings")
                 .author("Tolkin")
                 .build();
-
 
     }
 }
