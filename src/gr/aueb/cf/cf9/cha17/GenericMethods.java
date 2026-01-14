@@ -5,7 +5,7 @@ import java.util.List;
 public class GenericMethods {
 
     public static void main(String[] args) {
-        String[] towns = {"Athens", "Paris", "Agira"};
+        String[] towns = {"Athens", "Paris", "Agkira"};
         Integer[] intArr = {1,3,6,8,1};
         printArray(towns);
         printArray(intArr);
