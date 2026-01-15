@@ -57,10 +57,11 @@ public class ReduceMain {
         var sortedProductsDescriptionsGEQ100 = products.stream()
                 .filter(x -> x.getQuantity() >= 100)
                 .sorted(Comparator.comparing(Product::getDescription))
-                .mapToInt(Product::getQuantity)
+                .map(Product::getDescription)
                 .map(String::toUpperCase)
                 .collect(Collectors.toCollection(ArrayList::new));
 
+            sortedProductsDescriptionsGEQ100.forEach(System.out::println);
 
 
 
