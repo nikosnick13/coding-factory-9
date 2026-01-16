@@ -49,6 +49,12 @@ public class AccountDAOImpl implements IAccountDAO{
         //return  List.copyOf(accounts);
     }
 
+    //TODO
+    @Override
+    public long count() {
+        return accounts.size();
+    }
+
     @Override
     public boolean isAccountExist(String iban) {
         return  accounts.stream()

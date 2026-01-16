@@ -21,6 +21,8 @@ public interface IAccountDAO {
 
    List<Account> getAllAccounts();
 
+   long count();
+
    //Queries
     boolean isAccountExist(String iban);
 
