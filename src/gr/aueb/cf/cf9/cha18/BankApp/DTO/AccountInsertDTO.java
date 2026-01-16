@@ -1,6 +1,8 @@
 package gr.aueb.cf.cf9.cha18.BankApp.DTO;
 
-public record AccountInsertDTO(String iban, double balance) {
+import java.math.BigDecimal;
+
+public record AccountInsertDTO(String iban, BigDecimal balance) {
 }
 
 //public class AccountInsertDTO {
