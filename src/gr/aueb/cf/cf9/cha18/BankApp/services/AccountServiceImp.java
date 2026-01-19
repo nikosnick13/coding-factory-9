@@ -59,7 +59,7 @@ public class AccountServiceImp implements IAccountService{
         try {
             Account account = accountDAO.findByIban(accountDepositDTO.iban())
                     .orElseThrow( () -> new AccountNotFoundException("Account with iban " + accountDepositDTO.iban() + "not fount"));
-            account.setBalance(account.getBalance().add(accountDepositDTO.balance()));
+            account.setBalance(account.getBalance().add(accountDepositDTO.amount()));
             accountDAO.saveOrUpdate(account);
           // Logging CAPTURE
 
