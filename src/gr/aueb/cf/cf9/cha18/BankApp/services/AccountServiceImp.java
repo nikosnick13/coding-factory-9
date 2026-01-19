@@ -24,7 +24,7 @@ public class AccountServiceImp implements IAccountService{
     }
 
     @Override
-    public AccountReadOnlyDTO crateNewAccount(AccountInsertDTO accountInsertDTO) {
+    public AccountReadOnlyDTO createNewAccount(AccountInsertDTO accountInsertDTO) {
 
         Account account = Mapper.mapToModelEntity(accountInsertDTO);
         account = accountDAO.saveOrUpdate(account);

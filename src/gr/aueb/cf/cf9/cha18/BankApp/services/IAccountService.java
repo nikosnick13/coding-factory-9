@@ -12,7 +12,7 @@ import java.util.List;
 
 public interface IAccountService {
 
-    AccountReadOnlyDTO crateNewAccount(AccountInsertDTO accountInsertDTO);
+    AccountReadOnlyDTO createNewAccount(AccountInsertDTO accountInsertDTO);
     void withdraw(AccountWithdrawDTO accountWithdrawDTO) throws InsufficientBalanceException, AccountNotFoundException;
     void deposit (AccountDepositDTO accountDepositDTO) throws  AccountNotFoundException;
     List<AccountReadOnlyDTO> getAllAccounts();
